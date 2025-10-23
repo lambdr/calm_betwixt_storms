@@ -1,0 +1,63 @@
+<div class="sidebar">
+            <div class="profile">
+                <img src="img/logo.png" style="border-radius:0px;">
+                <h3>Fable Ex Machina</h3>
+               <p>A <em> Locos' Motive </em> adventure</p> 
+               
+               <br> <br>
+ <button style="pointer-events: none; border-radius: 8px; border: 1px solid #440044; background-color: white; padding: 3px 20px 3px 20px ;"> 
+ <span style="font-size: 16px;"><b>Next Session:</b></span><hr style="border: 0.25px solid grey;"> 
+<!--<div class="rainbowText">IN PERSON!</div> --> 
+Thursday 9/21/23 7:30 PM
+</button>
+ 
+            </div>
+            <ul>
+                <li>
+                    <?php 
+                    $active_page = basename($_SERVER['SCRIPT_NAME']);
+                    ?>
+                    <a href="index.php" <?php if( $active_page == 'index.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">Party Notes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="people.php" <?php if( $active_page == 'people.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="lore.php" <?php if( $active_page == 'lore.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">World Lore</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="places.php" <?php if( $active_page == 'places.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">Locations</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="game.php" <?php if( $active_page == 'game.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">Game Mechanics</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="recaps.php" <?php if( $active_page == 'recaps.php') {?> class ="active" <?php  } ?>>
+                        <span class="item">Session Recaps</span>
+                    </a>
+                </li>
+                 <li>
+                    <a href=" https://www.owlbear.rodeo/room/pDtEugyEYgp_/TheSlyJar" target="_blank">                        
+<span class="item">Battle Maps <i class="fa fa-external-link"></i></span>
+                    </a>
+                </li>
+
+              
+                
+               
+            </ul>
+        </div>
+       
+
+</body>
+</html>
