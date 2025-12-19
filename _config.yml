@@ -14,7 +14,7 @@
 title: The Calm Betwixt Storms
 description: An Embers of the Vale Adventure
 baseurl: "/calm_betwixt_storms" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 markdown: kramdown
 
