@@ -1,0 +1,1 @@
+Move Sidebar session values and ribbon XP values to config.yml

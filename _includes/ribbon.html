@@ -1,31 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.png">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-    <meta name="viewport" content="width=1024">
-    <title>Fable Ex Machina</title>
+<div class="top_navbar">
+  {% assign current_xp = 23885 %}
+  {% assign last_xp = 23000 %}
+  {% assign need_xp = 34000 %}
 
-</head>
-<body>
-<div class="wrapper">
-       <div class="section">
-    <div class="top_navbar">
-        <?php 
-        $current_xp = 23885;
-        $last_xp = 23000;
-        $need_xp =34000;
-	        $percentage = round(100*(($current_xp-$last_xp)/($need_xp-$last_xp)));
-        echo '
-     <p style="color:white;"> Party XP  <button style="pointer-events: none; border-radius: 25px; background-color:white; padding: 0 20px 0 20px ;">' . $current_xp .'</button> 
-     
-      XP Level 8  <button style="pointer-events: none;border-radius: 25px; background-color:white; padding: 0 20px 0 20px ;"> ' . $need_xp .' </button>
-      Level up?
-      <button style="pointer-events: none;width: 100px;border-radius: 25px; padding: 0 20px 0 20px; background: linear-gradient(to right, #b9ddeb 0% ' . $percentage .'%, white 0% 100%);"> ' . $percentage .'% </button> 
+  {% assign gained = current_xp | minus: last_xp %}
+  {% assign total = need_xp | minus: last_xp %}
+  {% assign percentage = gained | times: 100 | divided_by: total %}
 
-      </p>'      ;?>
-    </div>
+  <p style="color:white;">
+    Party XP
+    <button style="pointer-events: none; border-radius: 25px; background-color:white; padding: 0 20px;">
+      {{ current_xp }}
+    </button>
+
+    XP Level 8
+    <button style="pointer-events: none; border-radius: 25px; background-color:white; padding: 0 20px;">
+      {{ need_xp }}
+    </button>
+
+    Level up?
+    <button style="
+      pointer-events: none;
+      width: 100px;
+      border-radius: 25px;
+      padding: 0 20px;
+      background: linear-gradient(
+        to right,
+        #b9ddeb 0% {{ percentage }}%,
+        white {{ percentage }}% 100%
+      );
+    ">
+      {{ percentage }}%
+    </button>
+  </p>
+</div>
