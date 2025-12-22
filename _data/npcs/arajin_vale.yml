@@ -1,19 +1,41 @@
 location: Arajin Vale
 slug: arajin
 categories:
-  - name: City Leadership
+  - name: Market Leadership
     icon: fa-university
     npcs:
-      - name: Lady Henrietta Blade
-        description: The High Blade of the Three Cities
-      - name: Lord Junius Antyrinum
-        description: President of the Abishai Society
+      - name: Kostis Jei
+        description: The Market Keeper
+      - name: Father Voska
+        description: The Parish priest
 
   - name: Shopkeeps
     icon: fa-money
     npcs:
-      - name: Chauncey Gooding
-        description: Bartender at the Crane Tavern
-      - name: Zebulon
-        description: Owner of the Pixie Emporium
+      - name: Rowyn Pine
+        description: Owner of the Hearth of the Vale Inn
+      - name: Nyah Rumblethorne
+        description: Owns Wax & Wain
+      - name: Yahreh Nakhal
+        description: Sells carvings and curios
+      - name: Ma Zarah
+        description: A fortune-teller
+
+  - name: Contacts
+    icon: fa-question-circle
+    npcs: 
+      - name: Albar Brass
+        description: A travelling entertainer
+
+  - name: Hibblelorn Caravan
+    icon: fa-shopping-cart
+    npcs: 
+      - name: Farbin Hibblelorn
+        description: An eccentric gnome salesman 
+
+  - name: Misc.
+    icon: fa-users
+    npcs: 
+      - name: Mizal
+        description: A brigand
 

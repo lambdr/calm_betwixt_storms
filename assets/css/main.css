@@ -10,8 +10,24 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+  /* Core theme colors */
+  --color-bg: #faf4f4;
+  --color-sidebar: #de9259;
+  --color-navbar: #c8623e;
+
+  /* Accent colors */
+  --light-accent: #782e09;
+  --dark-accent: #441602;
+
+  /* Text */
+  --text-light: #faf4f4;
+  --text-dark: #1a1313;
+}
+
+
 body {
-  background: #f5f6fa;
+  background: var(--color-bg);
   font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
 }
@@ -19,7 +35,6 @@ body {
 .center{
 object-position: 50% 50%;
 }
-
 
 
 /* ---------- Wrapper ---------- */
@@ -30,7 +45,7 @@ object-position: 50% 50%;
 
 /* ---------- Sidebar ---------- */
 .wrapper .sidebar {
-  background: #7F82AD;
+  background: var(--color-sidebar);
   position: fixed;
   top: 0;
   left: 0;
@@ -55,12 +70,12 @@ object-position: 50% 50%;
 }
 
 .wrapper .sidebar .profile h3 {
-  color: #fff;
+  color: var(--text-light);
   margin: 10px 0 5px;
 }
 
 .wrapper .sidebar .profile p {
-  color: rgb(230, 200, 250);
+  color: var(--light-accent);
   font-size: 14px;
 }
 
@@ -72,17 +87,24 @@ object-position: 50% 50%;
 .wrapper .sidebar ul li a {
   display: block;
   padding: 13px 30px;
-  border-bottom: 1px solid #440044;
-  color: rgb(241, 237, 237);
+  color: var(--text-light);
   font-size: 16px;
   transition: all 0.2s ease-in-out;
 }
 
+.wrapper .sidebar ul li {
+  border-bottom: 1px solid var(--dark-accent);
+}
+
+.wrapper .sidebar ul li:first-child {
+  border-top: 1px solid var(--dark-accent);
+}
+
 .wrapper .sidebar ul li a.active,
 .wrapper .sidebar ul li a:hover {
-  color: #440044;
-  background: white;
-  border-right: 2px solid #440044;
+  color: var(--dark-accent);
+  background: var(--color-bg);
+  border-right: 2px solid var(--dark-accent);
 }
 
 /* ---------- Main Section ---------- */
@@ -96,7 +118,7 @@ object-position: 50% 50%;
 
 /* ---------- Top Navbar ---------- */
 .wrapper .section .top_navbar {
-  background: rgb(120, 105, 185);
+  background: var(--color-navbar);
   height: 50px;
   display: flex;
   align-items: center;
@@ -107,7 +129,7 @@ object-position: 50% 50%;
 /* ---------- Main Content ---------- */
 .wrapper .section .container {
   padding: 30px;
-  background: #fff;
+  background: var(--color-bg);
   line-height: 28px;
 }
 

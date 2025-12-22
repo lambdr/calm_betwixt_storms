@@ -1,10 +1,57 @@
 location: Stillhaven
 slug: stillhaven
 categories:
+  - name: Town Leadership
+    icon: fa-university
+    npcs:
+      - name: Baroness Celnea van Gane
+        description: The ruler of Stillhaven
+      - name: Baron Ofastoll van Gane 
+        description: The Baroness' husband
+      - name: Lord Ceve van Terhes
+        description: The Lord Justicar
+      - name: Lord Jalon Yrdeac
+        description: Captain of the Baroness' guard
+      - name: Lord Mystif Carn
+        description: The Lord Arcanist
+
+  - name: Shopkeeps
+    icon: fa-money
+    npcs:
+      - name: Amos
+        description: Owner of The Dour Rat
+      - name: Nia
+        description: Bartender at The Twisting Vine
+      - name: Badrim Lark
+        description: A blacksmith, owns The Iron Root
+      - name: Avrom
+        description: Apprentice blacksmith at The Iron Root
+      - name: Hedi Glemarsk
+        description: A jeweler 
+      - name: Ansko Beaufort
+        description: A tailor
+      - name: Taenaran
+        description: Owner of Fablebound
+      - name: Ahlun Nest
+        status: deceased
+        description: The murdered butcher
+      - name: Quint
+        description: The butcher's assistant
+
   - name: Contacts
     icon: fa-question-circle
-    npcs:
-      - name: Ichabod
-        description: An appraiser and antiquarian
-      - name: Euriel
-        description: Priestess at Heaven’s Crest
+    npcs: 
+      - name: Prieten
+        description: A stonemerchant and friend of Market Keeper Kostis Jei
+      - name: Nazz
+        description: A guy who might be a bit shady
+      - name: Lord Haylich Ryazan
+        description: A noble with a penchant for magical items
+
+  - name: Misc.
+    icon: fa-users
+    npcs: 
+      - name: Andrei
+        description: Prieten's manservant
+      - name: Dragos
+        description: Lord Ryazan's gardener and nothing else 

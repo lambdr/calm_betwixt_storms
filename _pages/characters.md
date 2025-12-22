@@ -76,7 +76,12 @@ permalink: /characters/
 
       {% for npc in category.npcs %}
       <tr>
-        <td><strong>{{ npc.name }}</strong></td>
+        <td>
+          <strong>{{ npc.name }}</strong>
+          {% if npc.status == "deceased" %}
+            <span style="color:red; font-weight:bold;">&nbsp;&nbsp;(deceased)</span>
+          {% endif %}
+        </td>
         <td>{{ npc.description }}</td>
       </tr>
       {% endfor %}
