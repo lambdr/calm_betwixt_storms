@@ -1,0 +1,19 @@
+location: Arajin Vale
+slug: arajin
+categories:
+  - name: City Leadership
+    icon: fa-university
+    npcs:
+      - name: Lady Henrietta Blade
+        description: The High Blade of the Three Cities
+      - name: Lord Junius Antyrinum
+        description: President of the Abishai Society
+
+  - name: Shopkeeps
+    icon: fa-money
+    npcs:
+      - name: Chauncey Gooding
+        description: Bartender at the Crane Tavern
+      - name: Zebulon
+        description: Owner of the Pixie Emporium
+

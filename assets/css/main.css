@@ -1,19 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+/* ---------- Reset & Global ---------- */
+* {
   list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
   background: #f5f6fa;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
 }
-.wrapper .sidebar{
-  background:  #7F82AD;
+
+.center{
+object-position: 50% 50%;
+}
+
+
+
+/* ---------- Wrapper ---------- */
+.wrapper {
+  display: flex; /* sidebar + main content */
+  min-height: 100vh;
+}
+
+/* ---------- Sidebar ---------- */
+.wrapper .sidebar {
+  background: #7F82AD;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,101 +38,113 @@ body{
   height: 100%;
   padding: 20px 0;
   transition: all 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
 }
 
-.wrapper .sidebar .profile{
-  margin-bottom: 30px;
+.wrapper .sidebar .profile {
   text-align: center;
+  margin-bottom: 30px;
 }
 
-.wrapper .sidebar .profile img{
-  display: block;
+.wrapper .sidebar .profile img {
   width: 100px;
   height: 100px;
   margin: 0 auto;
 }
 
-.wrapper .sidebar .profile h3{
-  color: #ffffff;
+.wrapper .sidebar .profile h3 {
+  color: #fff;
   margin: 10px 0 5px;
 }
 
-.wrapper .sidebar .profile p{
+.wrapper .sidebar .profile p {
   color: rgb(230, 200, 250);
   font-size: 14px;
 }
 
-.wrapper .sidebar ul li a{
+.wrapper .sidebar ul {
+  flex-grow: 1;
+  padding-top: 20px;
+}
+
+.wrapper .sidebar ul li a {
   display: block;
   padding: 13px 30px;
   border-bottom: 1px solid #440044;
   color: rgb(241, 237, 237);
   font-size: 16px;
-  position: relative;
+  transition: all 0.2s ease-in-out;
 }
 
-.wrapper .sidebar ul li a .icon{
-  color: #dee4ec;
-  width: 30px;
-  display: inline-block;
-}
-
- 
-
-.wrapper .sidebar ul li a:hover,
-.wrapper .sidebar ul li a.active{
+.wrapper .sidebar ul li a.active,
+.wrapper .sidebar ul li a:hover {
   color: #440044;
-
-  background:white;
-    border-right: 2px solid  #440044;
+  background: white;
+  border-right: 2px solid #440044;
 }
 
-.wrapper .sidebar ul li a:hover .icon,
-.wrapper .sidebar ul li a.active .icon{
-  color: #f0eafa;
+/* ---------- Main Section ---------- */
+.wrapper .section {
+  margin-left: 250px; /* width of sidebar */
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 250px);
+  height: 100vh;
 }
 
-.wrapper .sidebar ul li a:hover:before,
-.wrapper .sidebar ul li a.active:before{
-  display: block;
-}
-
-.wrapper .section{
-  width: calc(100% - 225px);
-  margin-left: 225px;
-  transition: all 0.5s ease;
-}
-
-.wrapper .section .top_navbar{
+/* ---------- Top Navbar ---------- */
+.wrapper .section .top_navbar {
   background: rgb(120, 105, 185);
   height: 50px;
   display: flex;
   align-items: center;
   padding: 0 30px;
- 
+  flex-shrink: 0;
 }
 
-.wrapper .section .top_navbar .hamburger a{
-  font-size: 28px;
-  color: #f4fbff;
-}
-
-.wrapper .section .top_navbar .hamburger a:hover{
-  color: #a2ecff;
-}
-
- .wrapper .section .container{
-  margin: 30px;
+/* ---------- Main Content ---------- */
+.wrapper .section .container {
+  padding: 30px;
   background: #fff;
-  padding: 50px;
   line-height: 28px;
 }
 
-body.active .wrapper .sidebar{
-  left: -225px;
+/* ---------- Tabs ---------- */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
 }
 
-/* Style the button that is used to open and close the collapsible content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* ---------- Collapsible (optional) ---------- */
 .collapsible {
   background-color: #eee;
   color: #444;
@@ -128,12 +157,10 @@ body.active .wrapper .sidebar{
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #ccc;
 }
 
-/* Style the collapsible content. Note: hidden by default */
 .content {
   padding: 0 18px;
   display: none;
@@ -142,14 +169,44 @@ body.active .wrapper .sidebar{
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+/* ---------- Image Formatting ---------- */
+img.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform .2s;
+}
+.avatar:hover {
+  transform: scale(2.0); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
+/* ---------- Table Formatting ---------- */
+
+table.char {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.char td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table.char tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+/* ---------- Rainbow Text ---------- */
 .rainbowText {
-  font-family:arial black;
-  font-size:40px;
-  background-image: 
-    linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+  font-family: Arial Black;
+  font-size: 40px;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
+  -webkit-text-fill-color: transparent;
   animation: move 55s linear infinite;
 }
 
@@ -157,47 +214,4 @@ body.active .wrapper .sidebar{
   to {
     background-position: 3500vh;
   }
-}
-
-*{
-  font-family: sans-serif;
-}
-
-body {font-family: Arial;}
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
-}
-
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
 }

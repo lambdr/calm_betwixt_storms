@@ -1,5 +1,6 @@
 ---
 name: Regill
+image: regill.png
 race: Gnome
 class: Fighter
 level: 2

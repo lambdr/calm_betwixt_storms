@@ -21,25 +21,25 @@
 
   <ul>
     <li>
-      <a href="/" class="{% if page.url == '/' %}active{% endif %}">
+      <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %}active{% endif %}">
         <span class="item">Party Notes</span>
       </a>
     </li>
 
     <li>
-      <a href="{{ site.baseurl }}/pages/characters/" class="{% if page.url contains 'characters' %}active{% endif %}">
+      <a href="{{ site.baseurl }}/characters/" class="{% if page.url contains 'characters' %}active{% endif %}">
         <span class="item">People</span>
       </a>
     </li>
 
     <li>
-      <a href="/pages/world/" class="{% if page.url contains 'world' %}active{% endif %}">
+      <a href="{{ site.baseurl }}/world/" class="{% if page.url contains 'world' %}active{% endif %}">
         <span class="item">World Lore</span>
       </a>
     </li>
 
     <li>
-      <a href="/pages/recaps/" class="{% if page.url contains 'recaps' %}active{% endif %}">
+      <a href="{{ site.baseurl }}/recaps/" class="{% if page.url contains 'recaps' %}active{% endif %}">
         <span class="item">Session Recaps</span>
       </a>
     </li>

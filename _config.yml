@@ -18,6 +18,9 @@ url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.
 
 markdown: kramdown
 
+include:
+  - _pages
+
 collections:
   recaps:
     output: true

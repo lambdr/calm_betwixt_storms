@@ -3,15 +3,16 @@
   {% include head.html %}
   <body>
     <div class="wrapper">
-      {% include sidebar.html %}
 
       <div class="section">
         {% include ribbon.html %}
 
-        <main class="content">
+        <div class="container">
           {{ content }}
-        </main>
+        </div>
       </div>
+
+      {% include sidebar.html %} 
     </div>
   </body>
 </html>

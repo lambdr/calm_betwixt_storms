@@ -1,0 +1,10 @@
+location: Stillhaven
+slug: stillhaven
+categories:
+  - name: Contacts
+    icon: fa-question-circle
+    npcs:
+      - name: Ichabod
+        description: An appraiser and antiquarian
+      - name: Euriel
+        description: Priestess at Heaven’s Crest
