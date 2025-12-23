@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
 /* ---------- Reset & Global ---------- */
 * {
-  list-style: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
@@ -32,6 +32,8 @@ body {
   min-height: 100vh;
 }
 
+ul, ol {list-style: none;}
+
 .center{
 object-position: 50% 50%;
 }
@@ -56,7 +58,7 @@ p {
   left: 0;
   width: 250px;
   height: 100%;
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   transition: all 0.5s ease;
   display: flex;
   flex-direction: column;
@@ -218,12 +220,137 @@ p {
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
+
+/* ---------- Quest Board & Party Info ---------- */
+
+div#frame {
+  background: url("../images/misc/cork-board.png") no-repeat;
+	background-size: 100% 100%;
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  padding-top: 35px;
+  padding-left: 35px;
+}
+
+.help {
+  width: 75%;
+  min-height: 50px;
+  height: fit-contents;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  float: left;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  border: 1px solid rgba(0,0,0,.25);
+  background-image : url("../images/misc/quest-paper.png");
+	display: inline-grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.note {
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+  float: left;
+  margin: 8px;
+  border: 1px solid rgba(0,0,0,.25);
+}
+
+.pin {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  -webkit-box-shadow: 0 3px 6px rgb(0 0 0 / 55%);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,.55);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 55%);
+  margin: 0 auto;
+  margin-top: 2px;
+  background-color: -moz-radial-gradient(45px 45px 45deg, circle cover, #a19d9450%, black 100%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, #a19d94, black);
+	background-image: radial-gradient(#a19d94 50%, black 100%);
+}
+
+.sticky {
+  transform: rotate(-3.5deg);
+  -webkit-transform: rotate(-3.5deg);
+  -moz-transform: rotate(-3.5deg);
+  background-image : url("../images/misc/quest-paper.png");
+}
+
+.helptext{
+  font-family: 'Kalam', cursive;
+	text-align: center;
+	margin: 5px;
+	padding-top: 5px;
+	font-size: 25px;
+}
+
+.jobtext{
+  font-family: 'Kalam', cursive;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+.party_page h2{
+		color: var(--light-accent);
+}
+
+
+.coin img{
+ height: 50px;
+}
+
+.coin {
+  display: flex;
+  height: 60px;
+  width: 180px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10%;
+  background: white;
+  font-size: 25px ;
+  padding: 5px;
+}
+
+.loot {
+display: grid; 
+grid-template-columns: 1fr 3fr;
+column-gap: 10%;
+}
+
+.loot h3 {
+  color: var(--text-dark);
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.loot h4 {
+  color: var(--text-dark)
+}
+
+.loot ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 0;
+  margin-bottom: 1rem;
+  padding-left: 1.25rem; 
+}
+
+.loot li {
+  margin: 0.25rem 0;
+}
+
 /* ---------- Calendars & Recaps ---------- */
 #TOC h2 {
   color: var(--light-accent);
   font-weight: bold;
 }
-
 
 
 .recap a {
@@ -476,6 +603,13 @@ img.letter {
 
 .image-slider img {
 	user-select: none;
+}
+
+.thanks img {
+  width: 15%;
+  opacity: 0.8;
+  margin-left: 5%;
+  float: bottom;
 }
 
 /* ---------- Table Formatting ---------- */

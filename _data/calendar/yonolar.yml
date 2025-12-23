@@ -13,7 +13,7 @@ events:
     - name: Test events
       type: misc
   17: 
-    - name: Pyre Night
+    - name: Pyre Day
       type: holiday
   29: 
     - name: Autumnal Equinox
