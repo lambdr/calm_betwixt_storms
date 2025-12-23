@@ -36,6 +36,11 @@ body {
 object-position: 50% 50%;
 }
 
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
 
 /* ---------- Wrapper ---------- */
 .wrapper {
@@ -60,7 +65,7 @@ object-position: 50% 50%;
 
 .wrapper .sidebar .profile {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .sidebar .profile button {
@@ -219,10 +224,7 @@ object-position: 50% 50%;
   font-weight: bold;
 }
 
-.recap p {
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
+
 
 .recap a {
   color: var(--light-accent);
@@ -373,7 +375,7 @@ img.avatar {
   transition: transform .2s;
 }
 .avatar:hover {
-  transform: scale(2.0); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.8); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .map-figure {
@@ -409,6 +411,28 @@ img.avatar {
   .map-grid.two-col {
     grid-template-columns: 1fr;
   }
+}
+
+img.letter {
+  max-width: 15vw;
+  height: auto;
+  border: 1px solid var(--dark-accent);
+  margin: 1rem 0;
+}
+/* ---------- Lore Pages ---------- */
+
+.lore h2, h3 {
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.lore h2 {
+  text-decoration: underline;
+}
+
+.world-fiction strong {
+  color: var(--dark-accent);
 }
 
 /* ---------- Image Slider ---------- */
@@ -472,6 +496,13 @@ table.char tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+table.char.gods {
+  font-size: 0.9em
+}
+
+table.char.gods td, th {
+  padding: 6px;
+}
 
 /* ---------- Rainbow Text ---------- */
 .rainbowText {

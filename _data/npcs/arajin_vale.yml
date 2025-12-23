@@ -32,10 +32,12 @@ categories:
     npcs: 
       - name: Farbin Hibblelorn
         description: An eccentric gnome salesman 
+      - name: Tasnia Brightshield
+        description: A trader in weapons and antiques
 
   - name: Misc.
     icon: fa-users
     npcs: 
-      - name: Mizal
-        description: A brigand
+      - name: Mizal Stargen
+        description: A former soldier who tried his hand at brigandry
 
