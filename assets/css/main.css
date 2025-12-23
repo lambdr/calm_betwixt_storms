@@ -363,6 +363,7 @@ background-color:white;
 padding: 0 20px 0 20px ;
 }
 
+
 /* ---------- Image Formatting ---------- */
 img.avatar {
   vertical-align: middle;
@@ -373,6 +374,41 @@ img.avatar {
 }
 .avatar:hover {
   transform: scale(2.0); /* (200% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.map-figure {
+  margin: 1.5rem auto;
+  text-align: center;
+  max-width: 90%;
+}
+
+.map-figure img {
+  max-width: 30vw;
+  height: auto;
+  border: 1px solid var(--dark-accent);
+}
+
+.map-figure figcaption {
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  font-style: italic;
+}
+
+.map-grid {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.map-grid.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* stack on smaller screens */
+@media (max-width: 900px) {
+  .map-grid.two-col {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ---------- Table Formatting ---------- */
