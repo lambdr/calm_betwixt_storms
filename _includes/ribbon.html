@@ -7,27 +7,23 @@
   {% assign total = need_xp | minus: last_xp %}
   {% assign percentage = gained | times: 100 | divided_by: total %}
 
-  <p style="color:white;">
+  <p>
     Party XP
-    <button style="pointer-events: none; border-radius: 25px; background-color:white; padding: 0 20px;">
+    <button>
       {{ current_xp }}
     </button>
 
     XP Level 3
-    <button style="pointer-events: none; border-radius: 25px; background-color:white; padding: 0 20px;">
+    <button>
       {{ need_xp }}
     </button>
 
     Level up?
     <button style="
-      pointer-events: none;
-      width: 100px;
-      border-radius: 25px;
-      padding: 0 20px;
       background: linear-gradient(
         to right,
         #b9ddeb 0% {{ percentage }}%,
-        white {{ percentage }}% 100%
+        var(--color-bg) {{ percentage }}% 100%
       );
     ">
       {{ percentage }}%

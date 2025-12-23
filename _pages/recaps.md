@@ -6,6 +6,7 @@ permalink: /recaps/
 {% assign current_month = "Yonolar" %}
 
 <div id="TOC">
+<h2>Campaign Calendar</h2>
 <center>
 {% for working_month in site.data.calendar %}
 {% assign month = working_month[1] %}
@@ -84,7 +85,7 @@ permalink: /recaps/
 <br/><hr><br/>
 
 
-<h2 style="color: var(--light-accent); font-weight: bold;">Session Recaps</h2>
+<h2>Session Recaps</h2>
 <br/>
 
 <div id="recap-list">

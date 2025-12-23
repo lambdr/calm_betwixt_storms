@@ -63,6 +63,14 @@ object-position: 50% 50%;
   margin-bottom: 30px;
 }
 
+.sidebar .profile button {
+  pointer-events: none;
+  border-radius: 8px;
+  border: 1px solid var(--dark-accent);
+  background-color: var(--color-bg);
+  padding: 3px 20px;
+}
+
 .wrapper .sidebar .profile img {
   width: 100px;
   height: 100px;
@@ -124,6 +132,17 @@ object-position: 50% 50%;
   align-items: center;
   padding: 0 30px;
   flex-shrink: 0;
+}
+
+.top_navbar p {
+  color: var(--text-light);
+}
+
+.top_navbar button {
+  pointer-events: none; 
+  border-radius: 25px; 
+  background-color: var(--color-bg); 
+  padding: 0 20px;
 }
 
 /* ---------- Main Content ---------- */
@@ -195,6 +214,10 @@ object-position: 50% 50%;
   background-color: #f1f1f1;
 }
 /* ---------- Calendars & Recaps ---------- */
+#TOC h2 {
+  color: var(--light-accent);
+  font-weight: bold;
+}
 
 .recap p {
   margin-bottom: 10px;
