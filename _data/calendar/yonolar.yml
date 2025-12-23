@@ -1,0 +1,20 @@
+month: Yonolar
+slug: m2
+month_number: 2
+year: 654
+days_in_month: 30
+events:
+  1: 
+    - name: Ember Festival
+      type: holiday
+    - name: First day of Autumn
+      type: holiday
+  3: 
+    - name: Test events
+      type: misc
+  17: 
+    - name: Pyre Night
+      type: holiday
+  29: 
+    - name: Autumnal Equinox
+      type: holiday

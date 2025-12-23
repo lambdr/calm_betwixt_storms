@@ -13,7 +13,7 @@ permalink: /characters/
 </div>
 
 
-<div id="PC" class="tabcontent" style="display:block;">
+<div id="PC" class="tabcontent tabborder" style="display:block;">
 
 <div id="top_pc">
   <div id="main">
@@ -62,7 +62,7 @@ permalink: /characters/
 </div> <!-- end PC tab -->
 
 {% for place in site.data.npcs %}
-<div id="{{ place[1].slug }}" class="tabcontent">
+<div id="{{ place[1].slug }}" class="tabcontent tabborder">
   <h3>NPCs you have met in {{ place[1].location }}</h3>
   <br/>
   {% for category in place[1].categories %}
@@ -77,9 +77,9 @@ permalink: /characters/
       {% for npc in category.npcs %}
       <tr>
         <td>
-          <strong>{{ npc.name }}</strong>
+          {{ npc.name }}
           {% if npc.status == "deceased" %}
-            <span style="color:red; font-weight:bold;">&nbsp;&nbsp;(deceased)</span>
+            <span style="color:red;">&nbsp;&nbsp;(deceased)</span>
           {% endif %}
         </td>
         <td>{{ npc.description }}</td>

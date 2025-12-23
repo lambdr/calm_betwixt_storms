@@ -1,0 +1,12 @@
+month: Jaseril
+slug: m3
+month_number: 3
+year: 654
+days_in_month: 30
+events:
+  12: 
+    - name: Harvest Festival
+      type: holiday
+  28: 
+    - name: Day of the Parting
+      type: holiday
