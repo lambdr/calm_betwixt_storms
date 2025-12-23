@@ -17,10 +17,16 @@ permalink: /locations/
 <div id="maps" class="tabcontent tabborder">
   <div class="map-grid two-col">
     <figure class="map-figure">
-      <a href="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" target="_blank">
-        <img src="{{ site.baseurl }}/assets/images/maps/heartlands.jpg"
-             alt="Map of the Heartlands">
-      </a>
+        <div class="image-slider">
+            <div class="image-overlay">
+                <a href="{{ site.baseurl }}/assets/images/maps/heartlands_political.jpg" target="_blank">
+                    <img  src="{{ site.baseurl }}/assets/images/maps/heartlands_political.jpg" alt="Map of the Heartlands with political boundaries">
+                </a>
+            </div>
+            <a href="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" target="_blank">
+                <img  src="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" alt="Map of the Heartlands">
+            </a>
+        </div>
       <figcaption>The Heartlands</figcaption>
     </figure>
     <figure class="map-figure">
