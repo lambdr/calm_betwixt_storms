@@ -3,6 +3,9 @@ layout: default
 title: People
 permalink: /recaps/
 ---
+{% assign latest_recap = site.recaps | sort: "date" | last %}
+{% assign current_month = latest_recap.start_month %}
+{% assign total_months = site.data.calendar | size %}
 
 <div id="TOC">
 <h2>Campaign Calendar</h2>
@@ -10,22 +13,33 @@ permalink: /recaps/
 {% for working_month in site.data.calendar %}
 {% assign month = working_month[1] %}
 <div id="{{ month.slug }}" class="tabcontent"
-    {% if month.month == site.current_month %}
+    {% if month.month == current_month %}
         style="display:block;"
     {% else %}
         style="display:none;"
     {% endif %}
 >
 
+{% assign prev_month = month.month_number | minus: 1 %}
+{% assign next_month = month.month_number | plus: 1 %}
+
+
+{% if prev_month < 1 %}
+  {% assign prev_month = 1 %}
+{% endif %}
+{% if next_month > total_months %}
+  {% assign next_month = total_months %}
+{% endif %}
+
+
       
     <table id="calendar">
     <caption>
         <h3>
             <button 
-            class="tablinks" 
-            onclick="openCity(event, &#39;m{{month.month_number | minus: 1}}&#39;)">  ←  	</button> 
+            class="tablinks" onclick="openCity(event, &#39;m{{prev_month}}&#39;)">  ←  	</button> 
             {{ month.month }}
-            <button class="tablinks" onclick="openCity(event, &#39;m{{month.month_number | plus: 1}}&#39;)"> →  </button>
+            <button class="tablinks" onclick="openCity(event, &#39;m{{next_month}}&#39;)"> →  </button>
         </h3>
         <h5>{{ month.year }} A.Y.</h5>
     </caption>
@@ -44,18 +58,22 @@ permalink: /recaps/
 
         <td class="day parent">
             <div class="date">{{ day }}</div>
-
-            <!-- Holidays & Misc -->
+                {% if ghost_event %}
+                    <div class="event misc" style="visibility:hidden;">.</div>
+                {% assign ghost_event = false %}
+            {% endif %}
 
             {% if month.events and month.events[day] %}
                 {% for event in month.events[day] %}
                     <div class="event {{ event.type }} {% if event.length and event.length > 1%} child {% endif %}">
                         {{ event.name }}
                     </div>
+                    {% if event.length and event.length > 1%}
+                        {% assign ghost_event = true %}
+                    {% endif %}
                 {% endfor %}
             {% endif %}
 
-            <!-- Recaps -->
             {% assign month_recaps = site.recaps | where: "start_month", month.month %}
 
             {% if month_recaps %}

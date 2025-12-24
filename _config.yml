@@ -21,7 +21,6 @@ markdown: kramdown
 current_level: 2
 last_xp: 1000
 need_xp: 3000
-current_month: Yonolar
 
 include:
   - _pages
