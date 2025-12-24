@@ -17,7 +17,8 @@ baseurl: "/calm_betwixt_storms" # the subpath of your site, e.g. /blog
 url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 
-# XP Tracking
+# Campaign info
+next_session: Friday 12/26/25 6:00 PM ET
 current_level: 2
 last_xp: 1000
 need_xp: 3000

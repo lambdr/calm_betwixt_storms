@@ -271,7 +271,7 @@ div#frame {
   box-shadow: 0 3px 6px rgb(0 0 0 / 55%);
   margin: 0 auto;
   margin-top: 2px;
-  background-color: -moz-radial-gradient(45px 45px 45deg, circle cover, #a19d9450%, black 100%);
+  background-color: -moz-radial-gradient(45px 45px 45deg, circle cover, #a19d9450, black 100%);
   background-image: -webkit-radial-gradient(45px 45px, circle cover, #a19d94, black);
 	background-image: radial-gradient(#a19d94 50%, black 100%);
 }
@@ -286,6 +286,7 @@ div#frame {
 .helptext{
   font-family: 'Kalam', cursive;
 	text-align: center;
+  color: var(--text-dark);
 	margin: 5px;
 	padding-top: 5px;
 	font-size: 25px;
@@ -293,6 +294,7 @@ div#frame {
 
 .jobtext{
   font-family: 'Kalam', cursive;
+  color: var(--text-dark);
   margin: 5px;
   padding-top: 5px;
 }
@@ -369,7 +371,7 @@ column-gap: 10%;
   grid-template-columns: repeat(10, 1fr);
 }
 .border{
-	border: 4px solid black;
+	border: 4px solid var(--text-dark);
 	border-radius: 7px;
 }
 #calendar tr, #calendar tbody {
