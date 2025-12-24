@@ -8,9 +8,6 @@ events:
     - name: Harvest Festival
       type: holiday
       length: 2
-  13:
-    - name: Test events
-      type: misc
   28: 
     - name: Day of the Parting
       type: holiday
