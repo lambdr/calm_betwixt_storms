@@ -15,8 +15,13 @@ title: The Calm Betwixt Storms
 description: An Embers of the Vale Adventure
 baseurl: "/calm_betwixt_storms" # the subpath of your site, e.g. /blog
 url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
 markdown: kramdown
+
+# XP Tracking
+current_level: 2
+last_xp: 1000
+need_xp: 3000
+current_month: Yonolar
 
 include:
   - _pages
@@ -28,9 +33,6 @@ collections:
   party:
     output: true
     permalink: /characters/party/:name/
-  npcs:
-    output: true
-    permalink: /characters/npcs/:name/
 
 defaults:
   - scope:

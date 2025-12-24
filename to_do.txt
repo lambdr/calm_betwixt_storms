@@ -1,7 +1,7 @@
 
-[] Move Sidebar session values and ribbon XP values to config.yml
+[X] Move Sidebar session values and ribbon XP values to config.yml
 [] Auto-calculate current month
-[] Calculate XP from recaps
+[X] Calculate XP from recaps
 [] Add spacing event in calendar for multi-day events
 [X] Trim white from cork board
 [] Colour check!

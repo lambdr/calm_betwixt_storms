@@ -1,21 +1,26 @@
 <div class="top_navbar">
-  {% assign current_xp = 2570 %}
-  {% assign last_xp = 1000 %}
-  {% assign need_xp = 3000 %}
+  <!-- XP Calculations -->
+  {% assign current_xp = 0 %}
+  {% for recap in site.recaps %}
+    {% assign recap_xp = recap.xp | default: 0 %}
+    {% assign current_xp = current_xp | plus: recap_xp %}
+  {% endfor %}
 
-  {% assign gained = current_xp | minus: last_xp %}
-  {% assign total = need_xp | minus: last_xp %}
+
+  {% assign gained = {{current_xp}} | minus: {{site.last_xp}} %}
+  {% assign total = {{site.need_xp}} | minus: {{site.last_xp}} %}
   {% assign percentage = gained | times: 100 | divided_by: total %}
 
+  <!-- Buttons -->
   <p>
     Party XP
     <button>
       {{ current_xp }}
     </button>
 
-    XP Level 3
+    XP Level {{ site.current_level | plus: 1 }}
     <button>
-      {{ need_xp }}
+      {{ site.need_xp }}
     </button>
 
     Level up?

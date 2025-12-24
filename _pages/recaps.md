@@ -3,7 +3,6 @@ layout: default
 title: People
 permalink: /recaps/
 ---
-{% assign current_month = "Yonolar" %}
 
 <div id="TOC">
 <h2>Campaign Calendar</h2>
@@ -11,7 +10,7 @@ permalink: /recaps/
 {% for working_month in site.data.calendar %}
 {% assign month = working_month[1] %}
 <div id="{{ month.slug }}" class="tabcontent"
-    {% if month.month == current_month %}
+    {% if month.month == site.current_month %}
         style="display:block;"
     {% else %}
         style="display:none;"
