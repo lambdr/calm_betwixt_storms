@@ -1,5 +1,6 @@
 ---
 name: Ellywick
+image: ellywick.jpg
 race: Gnome
 class: Cleric
 level: 2
