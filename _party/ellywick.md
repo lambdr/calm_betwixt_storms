@@ -1,5 +1,5 @@
 ---
-name: Ellywick
+name: Ellywick Lizigella Waywocket Ningel
 image: ellywick.jpg
 race: Gnome
 class: Cleric
