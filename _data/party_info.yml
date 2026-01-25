@@ -1,9 +1,9 @@
 quests: 
   - description: Retrieve a silver ewer from the Renwick Ruins for Lord Ryazan
-pp: 1
-gp: 2
-sp: 30
-cp: 40
+pp: 2
+gp: 76
+sp: 146
+cp: 157
 documents:
   - name: Map of Arajin vale...
     held: Contessa
