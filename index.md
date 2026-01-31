@@ -53,22 +53,40 @@ title: Home
     <!-- Party Inventory -->
     <div>
         <h3>Party Loot</h3>
-        <h4>Documents:</h4>
-        <ul class="loot-list">
-            {% for doc in info.documents %}
-                <li>{{ doc.name }} {% if doc.held %} (carried by {{ doc.held }}){% endif %}</li>
-            {% endfor %}
-        </ul>
-        <h4>Magic Items:</h4>
+        <h4>Regill:</h4>
         <ul>
-            {% for item in info.magic_items %}
+            {% for item in info.Regill %}
                 <li><em>{{ item.name }} </em>{% if item.held %} (carried by {{ item.held }}){% endif %}</li>
             {% endfor %}
         </ul>
-        <h4>Treasure:</h4>
+        <h4>Ellywick:</h4>
         <ul>
-            {% for item in info.treasure %}
+            {% for item in info.Ellywick %}
                 <li>{{ item.name }} {% if item.held %} (carried by {{ item.held }}){% endif %}</li>
+            {% endfor %}
+        </ul>
+		<h4>Jadwiga:</h4>
+        <ul>
+            {% for item in info.Jadwiga %}
+                <li>{{ item.name }} {% if item.held %} (carried by {{ item.held }}){% endif %}</li>
+            {% endfor %}
+        </ul>
+		<h4>Contessa:</h4>
+        <ul>
+            {% for item in info.Contessa %}
+                <li>{{ item.name }} {% if item.held %} (carried by {{ item.held }}){% endif %}</li>
+            {% endfor %}
+        </ul>
+		<h4>Saskarill:</h4>
+        <ul>
+            {% for item in info.Saskarill %}
+                <li>{{ item.name }} {% if item.held %} (carried by {{ item.held }}){% endif %}</li>
+            {% endfor %}
+        </ul>
+		<h4>Documents:</h4>
+        <ul class="loot-list">
+            {% for doc in info.documents %}
+                <li>{{ doc.name }} {% if doc.held %} (carried by {{ doc.held }}){% endif %}</li>
             {% endfor %}
         </ul>
     </div>
