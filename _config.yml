@@ -18,10 +18,10 @@ url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.
 markdown: kramdown
 
 # Campaign info
-next_session: Wednesday 01/28/26 6:00 PM ET
-current_level: 2
-last_xp: 1000
-need_xp: 3000
+next_session: Friday 02/06/26 6:00 PM ET
+current_level: 3
+last_xp: 3000
+need_xp: 6000
 
 include:
   - _pages

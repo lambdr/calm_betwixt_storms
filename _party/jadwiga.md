@@ -3,7 +3,7 @@ name: Jadwiga Cynober
 image: jadwiga.png
 race: Human
 class: Rogue
-level: 2
+level: 3
 player: Mel
 ---
 

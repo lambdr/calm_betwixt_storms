@@ -3,7 +3,7 @@ name: Saskarill
 image: saskarill.jpg
 race: Gnome
 class: Bard
-level: 2
+level: 3
 player: Haley
 ---
 

@@ -9,9 +9,6 @@ events:
       type: holiday
     - name: First day of Autumn
       type: holiday
-  3: 
-    - name: Test events
-      type: misc
   17: 
     - name: Pyre Day
       type: holiday
