@@ -1,23 +1,31 @@
 quests: 
   - description: Retrieve a silver ewer from the Renwick Ruins for Lord Ryazan
-pp: 2
-gp: 76
-sp: 146
+pp: 37
+gp: 121
+sp: 134
 cp: 157
-documents:
-  - name: Map of Arajin vale...
-    held: Contessa
-  - name: Some maps
-  - name: Some maps
-  - name: Some letters
-  - name: A Necromancer's Spellbook
-  - name: Other books, idk
-magic_items:
-  - name: Amulet of Natural Armour +1
-    held: Ellywick
-  - name: Potion of cure light wounds
+
+Regill:
   - name: Surzhit, a +1 thundering cold iron longsword
-    held: Regill
-treasure:
+  - name: A masterwork great axe
+  - name: A potion of cure light wounds
   - name: An extremely valuable orange rock
-    held: Regill
+
+Ellywick:
+  - name: Amulet of Natural Armour, +1 AC
+  - name: A wavey rock
+
+Jadviga:
+  - name: A potion of cure light wounds
+
+Contessa:
+  - A Necromancer's Spellbook
+  - A set of magic gloves, transmutation (effect unknown)
+
+Saskarill:
+  - name: None
+
+documents:
+  - name: Map of Arajin Value
+    held: Contessa
+
