@@ -1,6 +1,6 @@
 ---
 layout: default
-title: People
+title: World Lore
 permalink: /lore/
 ---
 <!-- Buttons -->

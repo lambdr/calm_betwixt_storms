@@ -1,6 +1,6 @@
 ---
 layout: default
-title: People
+title: Locations
 permalink: /locations/
 ---
 
@@ -41,14 +41,30 @@ permalink: /locations/
   <hr>
 
   <h5>Regional maps</h5>
-
-  <figure class="map-figure">
+  <div class="map-grid three-col">
+    <figure class="map-figure">
     <a href="{{ site.baseurl }}/assets/images/maps/arajin_vale.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/maps/arajin_vale.jpg"
            alt="Arajin Vale regional map">
     </a>
     <figcaption>Arajin Vale</figcaption>
-  </figure>
+    </figure>
+    <figure class="map-figure">
+    <a href="{{ site.baseurl }}/assets/images/maps/northwestern_gilvry.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/maps/northwestern_gilvry.jpg"
+           alt="Northwestern Gilvry regional map">
+    </a>
+    <figcaption>Northwestern Gilvry</figcaption>
+    </figure>
+    <figure class="map-figure">
+      <a href="{{ site.baseurl }}/assets/images/maps/acheron_range.jpg" target="_blank">
+        <img src="{{ site.baseurl }}/assets/images/maps/acheron_range.jpg"
+             alt="Regional Map of the Acheron Range">
+      </a>
+      <figcaption>Acheron Range</figcaption>
+    </figure>
+  </div>
+  
 
 </div>
 

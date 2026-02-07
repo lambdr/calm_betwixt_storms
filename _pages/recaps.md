@@ -1,6 +1,6 @@
 ---
 layout: default
-title: People
+title: Session Recaps
 permalink: /recaps/
 ---
 {% assign latest_recap = site.recaps | sort: "date" | last %}

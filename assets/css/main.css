@@ -514,9 +514,11 @@ img.avatar {
 }
 
 .map-figure img {
-  max-width: 30vw;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   border: 1px solid var(--dark-accent);
+  display: block;
 }
 
 .map-figure figcaption {
@@ -533,6 +535,10 @@ img.avatar {
 
 .map-grid.two-col {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.map-grid.three-col {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* stack on smaller screens */

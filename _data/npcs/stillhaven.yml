@@ -37,6 +37,8 @@ categories:
         description: The murdered butcher
       - name: Quint
         description: The butcher's assistant
+      - name: Ulvon Downwoods
+        description: An alchemist
 
   - name: Contacts
     icon: fa-question-circle
@@ -47,6 +49,10 @@ categories:
         description: A guy who might be a bit shady
       - name: Lord Haylich Ryazan
         description: A noble with a penchant for magical items
+      - name: Sia
+        description: A priestess of Lord Nin
+      - name: Gorvin
+        description: A cleric and senior priest of Lord Nin
 
   - name: Misc.
     icon: fa-users
@@ -55,3 +61,12 @@ categories:
         description: Prieten's manservant
       - name: Dragos
         description: Lord Ryazan's gardener and nothing else 
+      - name: Zalner Tallstep
+        description: A furrier who had a pet krenshar
+        status: deceased
+      - name: Adi Lumin
+        description: Zalner's friend
+      - name: Iacob
+        description: A villager from the mountains, Matias' father
+      - name: Matias
+        description: A young boy with uncontrolled magical powers, Iacob's son
