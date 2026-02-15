@@ -9,9 +9,15 @@ events:
       type: holiday
     - name: First day of Autumn
       type: holiday
+  14: 
+    - name: Regill's Birthday
+      type: misc
   17: 
     - name: Pyre Day
       type: holiday
   29: 
     - name: Autumnal Equinox
       type: holiday
+  30: 
+    - name: Contessa's Birthday
+      misc: misc
