@@ -20,4 +20,4 @@ events:
       type: holiday
   30: 
     - name: Contessa's Birthday
-      misc: misc
+      type: misc
