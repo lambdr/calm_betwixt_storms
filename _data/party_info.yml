@@ -1,26 +1,29 @@
 quests: 
-  - description: Retrieve a silver ewer from the Renwick Ruins for Lord Ryazan
-pp: 37
-gp: 121
+  - description: Retrieve the body of Philine's husband
+  - description: Travel to Inlarut to introduce Matias to the College of the Naga and meet Prieten's son
+pp: 2
+gp: 96
 sp: 134
 cp: 157
 
 Regill:
   - name: Surzhit, a +1 thundering cold iron longsword
-  - name: A masterwork great axe
   - name: A potion of cure light wounds
   - name: An extremely valuable orange rock
+  - name: An amulet of Amarhus
 
 Ellywick:
   - name: Amulet of Natural Armour, +1 AC
   - name: A wavey rock
+  - name: A woven bracelet
 
 Jadwiga:
   - name: A potion of cure light wounds
+  - name: An alchemist's fire
 
 Contessa:
-  - A Necromancer's Spellbook
-  - A set of magic gloves, transmutation (effect unknown)
+  - name: A Necromancer's Spellbook
+  - name: A set of magic gloves, transmutation (effect unknown)
 
 Saskarill:
   - name: None
