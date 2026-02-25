@@ -1,6 +1,8 @@
 quests: 
   - description: Retrieve the body of Philine's husband
-  - description: Travel to Inlarut to introduce Matias to the College of the Naga and meet Prieten's son
+  - description: Travel to Inlarut
+  - description: Introduce Matias to the College of the Naga 
+  - description: Meet Prieten's son
 pp: 2
 gp: 96
 sp: 134
