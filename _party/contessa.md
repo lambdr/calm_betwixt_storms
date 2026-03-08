@@ -7,4 +7,4 @@ level: 3
 player: Sarah
 ---
 
-An evoker in training. Ft. Gretta.
+An evoker in training. Ft. Greta.

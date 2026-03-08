@@ -1,0 +1,35 @@
+location: Inlarut
+slug: inlarut
+categories:
+  - name: City Leadership
+    icon: fa-university
+    npcs: 
+      - name: High Prince Fiual Dumenz
+        description: The ruler of Inlarut & all of Gilvry
+      - name: Grand Marshall Gresham van Bahz
+        description: The Grand Marshall of the forces of Gilvry
+  - name: Contacts
+    icon: fa-question-circle
+    npcs: 
+      - name: Nuavan Karsk
+        description: A sorcerer of the second ring and ally of Lord Haylich Ryazan
+      - name: Baiat
+        description: The son of Prieten
+  - name: Penrith
+    icon: fa-house
+    npcs: 
+      - name: Egon Creel
+        description: The mayor of Penrith
+      - name: Murdus
+        description: A master glassblower
+      - name: Neprys Stillfoot
+        description: The Reeve of Penrith
+      - name: Philine
+        description: Surviving widow of Ekin, who has been visited by his ghost
+      - name: Ekin
+        status: deceased
+        description: A forager who died in a cave
+      - name: Haywood
+        description: A miller
+      - name: Ansley
+        description: A farmer
