@@ -10,6 +10,7 @@ permalink: /characters/
   <button class="tablinks active" onclick="openCity(event, 'PC')">Players</button>
   <button class="tablinks" onclick="openCity(event, 'arajin')">Arajin Vale</button>
   <button class="tablinks" onclick="openCity(event, 'stillhaven')">Stillhaven</button>
+  <button class="tablinks" onclick="openCity(event, 'inlarut')">Inlarut</button>
 </div>
 
 
@@ -58,8 +59,7 @@ permalink: /characters/
     {% endfor %}
   </tbody>
 </table>
-
-</div> <!-- end PC tab -->
+</div> 
 
 {% for place in site.data.npcs %}
 <div id="{{ place[1].slug }}" class="tabcontent tabborder">

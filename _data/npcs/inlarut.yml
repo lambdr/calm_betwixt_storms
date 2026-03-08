@@ -16,7 +16,7 @@ categories:
       - name: Baiat
         description: The son of Prieten
   - name: Penrith
-    icon: fa-house
+    icon: fa-home
     npcs: 
       - name: Egon Creel
         description: The mayor of Penrith
