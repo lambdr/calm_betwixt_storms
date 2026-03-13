@@ -589,7 +589,7 @@ img.letter {
 .image-slider > div {
 	position: absolute;
 	top: 0; bottom: 0; left: 0;
-	width: 10px;
+	width: 10%;
 	max-width: 100%;
 	overflow: hidden;
 	resize: horizontal;
@@ -613,11 +613,19 @@ img.letter {
 	user-select: none;
 }
 
+.overlay img {
+    height: 100%; 
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;         
+    max-width: none;      
+}
+
 .thanks img {
   width: 15%;
   opacity: 0.7;
   margin-left: 5%;
-  float: bottom;
+  float: bottom;;
 }
 
 /* ---------- Table Formatting ---------- */

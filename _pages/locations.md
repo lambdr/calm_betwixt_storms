@@ -11,14 +11,16 @@ permalink: /locations/
 <div class="tab">
 <button class="tablinks" onclick="openCity(event, 'maps')" id="defaultOpen">World & Regional</button>
 <button class="tablinks" onclick="openCity(event, 'stillhaven')">Stillhaven</button>
+<button class="tablinks" onclick="openCity(event, 'inlarut')">Inlarut</button>
 </div>
 
 <!-- Maps -->
 <div id="maps" class="tabcontent tabborder">
   <div class="map-grid two-col">
     <figure class="map-figure">
-        <div class="image-slider">
-            <div class="image-overlay">
+        <!-- Image Slider Removed for now because it is too buggy -->
+        <!--<div class="image-slider">
+            <div class="overlay">
                 <a href="{{ site.baseurl }}/assets/images/maps/heartlands_political.jpg" target="_blank">
                     <img  src="{{ site.baseurl }}/assets/images/maps/heartlands_political.jpg" alt="Map of the Heartlands with political boundaries">
                 </a>
@@ -26,7 +28,10 @@ permalink: /locations/
             <a href="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" target="_blank">
                 <img  src="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" alt="Map of the Heartlands">
             </a>
-        </div>
+        </div>-->
+          <a href="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" target="_blank">
+                <img  src="{{ site.baseurl }}/assets/images/maps/heartlands.jpg" alt="Map of the Heartlands">
+          </a>
       <figcaption>The Heartlands</figcaption>
     </figure>
     <figure class="map-figure">
@@ -75,4 +80,15 @@ permalink: /locations/
             <img src="{{ site.baseurl }}/assets/images/maps/stillhaven.png" alt="Stillhaven town map">
         </a>
     </figure>
+</div>
+
+
+<!-- Inlarut -->
+<div id="inlarut" class="tabcontent tabborder">
+    <figure class="map-figure">
+        <a href="{{ site.baseurl }}/assets/images/maps/inlarut.jpg" target="_blank">
+            <img src="{{ site.baseurl }}/assets/images/maps/inlarut.jpg" alt="Inlarut city map" style="width:60%;border-color: 2px #000">
+        </a>
+    </figure>
+    <p>Points of Interest </p>
 </div>
