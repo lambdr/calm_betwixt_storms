@@ -21,11 +21,10 @@ Ellywick:
 
 Jadwiga:
   - name: A potion of cure light wounds
-  - name: An alchemist's fire
 
 Contessa:
   - name: A Necromancer's Spellbook
-  - name: A set of magic gloves, transmutation (effect unknown)
+  - name: A set of transmutation gloves, +5 to climb
 
 Saskarill:
   - name: None
