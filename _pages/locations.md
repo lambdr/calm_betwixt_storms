@@ -91,4 +91,14 @@ permalink: /locations/
         </a>
     </figure>
     <p>Points of Interest </p>
+    <p>
+      1. Wilamar Run <br/>
+      2. Gate of Princes <br/>
+      6. The Grinning Goblin <br/>
+      7. Ged's General Goods <br/>
+      8. The Silver Hoof <br/>
+      24. The Grand Market <br/>
+      30. The College of the Naga <br/>
+      43. The Prince's Palace
+    </p>
 </div>

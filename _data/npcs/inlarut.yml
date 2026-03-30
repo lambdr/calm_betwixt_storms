@@ -8,6 +8,17 @@ categories:
         description: The ruler of Inlarut & all of Gilvry
       - name: Grand Marshall Gresham van Bahz
         description: The Grand Marshall of the forces of Gilvry
+  - name: Shopkeeps
+    icon: fa-store
+    npcs: 
+      - name: Thurgrim
+        description: A blacksmith, owns Thurgrim's Forge
+      - name: Ged
+        description: Runs Ged's General Goods
+      - name: Ar Stagfist
+        description: Owner of The Silver Hoof, an inn in the Malarn District
+      - name: Kristiana
+        description: Barmaid at The Silver Hoof
   - name: Contacts
     icon: fa-question-circle
     npcs: 
