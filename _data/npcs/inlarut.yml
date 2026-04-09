@@ -25,7 +25,17 @@ categories:
       - name: Nuavan Karsk
         description: A sorcerer of the second ring and ally of Lord Haylich Ryazan
       - name: Baiat
-        description: The son of Prieten
+        description: A merchant, and the son of Prieten
+      - name: Cal
+        description: A page in the Mason's Guild
+      - name: Jutta
+        description: A bookeeper for the Mason's Guild
+      - name: Aldern Glitsk
+        description: A master stone mason
+      - name: Llewellyn
+        description: A wizard of the fourth ring
+      - name: Enell
+        description: Guard of the College of the Naga
   - name: Penrith
     icon: fa-home
     npcs: 
