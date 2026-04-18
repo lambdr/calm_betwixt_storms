@@ -34,6 +34,8 @@ categories:
         description: A master stone mason
       - name: Llewellyn
         description: A wizard of the fourth ring
+      - name: Theo
+        description: Llewellyn's adorable rat familiar
       - name: Enell
         description: Guard of the College of the Naga
   - name: Penrith
