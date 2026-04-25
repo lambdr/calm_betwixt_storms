@@ -9,7 +9,7 @@ categories:
       - name: Grand Marshall Gresham van Bahz
         description: The Grand Marshall of the forces of Gilvry
   - name: Shopkeeps
-    icon: fa-store
+    icon: fa-money
     npcs: 
       - name: Thurgrim
         description: A blacksmith, owns Thurgrim's Forge
@@ -19,11 +19,22 @@ categories:
         description: Owner of The Silver Hoof, an inn in the Malarn District
       - name: Kristiana
         description: Barmaid at The Silver Hoof
+      - name: Magda
+        description: One-eyed bartender of the Fiend's Pit
+  - name: College of the Naga
+    icon: fa-star-o
+    npcs:
+      - name: Nuavan Karsk
+        description: A sorcerer of the second ring and ally of Lord Haylich Ryazan
+      - name: Llewellyn
+        description: A wizard of the fourth ring
+      - name: Theo
+        description: Llewellyn's adorable rat familiar
+      - name: Enell
+        description: Guard of the College of the Naga
   - name: Contacts
     icon: fa-question-circle
     npcs: 
-      - name: Nuavan Karsk
-        description: A sorcerer of the second ring and ally of Lord Haylich Ryazan
       - name: Baiat
         description: A merchant, and the son of Prieten
       - name: Cal
@@ -32,12 +43,6 @@ categories:
         description: A bookeeper for the Mason's Guild
       - name: Aldern Glitsk
         description: A master stone mason
-      - name: Llewellyn
-        description: A wizard of the fourth ring
-      - name: Theo
-        description: Llewellyn's adorable rat familiar
-      - name: Enell
-        description: Guard of the College of the Naga
   - name: Penrith
     icon: fa-home
     npcs: 
