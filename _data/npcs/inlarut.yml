@@ -37,12 +37,23 @@ categories:
     npcs: 
       - name: Baiat
         description: A merchant, and the son of Prieten
+      - name: Rehnoh
+        description: Baiat's wife
+      - name: Aldern Glitsk
+        description: A master stone mason
+      - name: Virgil Petrescu
+        description: Master jeweller
+      - name: Elena Petrescu
+        description: Wife of Virgil Petrescu
+  - name: Misc.
+    icon: fa-users
+    npcs: 
       - name: Cal
         description: A page in the Mason's Guild
       - name: Jutta
         description: A bookeeper for the Mason's Guild
-      - name: Aldern Glitsk
-        description: A master stone mason
+      - name: Beirun
+        description: A miscreant who scammed the party
   - name: Penrith
     icon: fa-home
     npcs: 
@@ -61,3 +72,4 @@ categories:
         description: A miller
       - name: Ansley
         description: A farmer
+
