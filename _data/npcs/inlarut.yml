@@ -45,6 +45,8 @@ categories:
         description: Master jeweller
       - name: Elena Petrescu
         description: Wife of Virgil Petrescu
+      - name: Amada the Wraith
+        description: A leader of sorts in the Hand
   - name: Misc.
     icon: fa-users
     npcs: 
@@ -54,6 +56,8 @@ categories:
         description: A bookeeper for the Mason's Guild
       - name: Beirun
         description: A miscreant who scammed the party
+      - name: Ulblyn Moth
+        description: A gambler, and a Luckblade
   - name: Penrith
     icon: fa-home
     npcs: 

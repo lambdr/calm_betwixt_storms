@@ -97,8 +97,16 @@ permalink: /locations/
       6. The Grinning Goblin <br/>
       7. Ged's General Goods <br/>
       8. The Silver Hoof <br/>
+      10. Ventyrn Monastery & Church <br/>
+      13. Suknev Residence <br/>
+      16. Baiat's House <br/>
+      17. T'Nyr Bridge <br/>
+      21. The Fiend's Pit <br/>
       24. The Grand Market <br/>
       30. The College of the Naga <br/>
-      43. The Prince's Palace
+      31. Stone Mason's Guild <br/>
+      43. The Prince's Palace <br/>
+      51. The Tears of Morin <br/>
+      53. Inalsazum, "The Heights of Sazum"
     </p>
 </div>
