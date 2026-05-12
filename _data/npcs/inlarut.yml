@@ -21,6 +21,10 @@ categories:
         description: Barmaid at The Silver Hoof
       - name: Magda
         description: One-eyed bartender of the Fiend's Pit
+      - name: Adlev
+        description: Librarian at the Reverant Atheneum
+      - name: Kheiber
+        description: Adlev's assistant?
   - name: College of the Naga
     icon: fa-star-o
     npcs:
@@ -47,6 +51,8 @@ categories:
         description: Wife of Virgil Petrescu
       - name: Amada the Wraith
         description: A leader of sorts in the Hand
+      - name: Father Politon
+        description: A powerful (if expensive) cleric at Flowing Rock Cathedral
   - name: Misc.
     icon: fa-users
     npcs: 
@@ -58,6 +64,11 @@ categories:
         description: A miscreant who scammed the party
       - name: Ulblyn Moth
         description: A gambler, and a Luckblade
+      - name: Killian Suknev
+        description: A bookseller
+        status: deceased
+      - name: Katarina
+        description: Killian Suknev's former housekeeper
   - name: Penrith
     icon: fa-home
     npcs: 
