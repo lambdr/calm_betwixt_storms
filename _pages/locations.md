@@ -94,15 +94,19 @@ permalink: /locations/
     <p>
       1. Wilamar Run <br/>
       2. Gate of Princes <br/>
+      3. Gate of Kings <br/>
       6. The Grinning Goblin <br/>
       7. Ged's General Goods <br/>
       8. The Silver Hoof <br/>
       10. Ventyrn Monastery & Church <br/>
-      13. Suknev Residence <br/>
+      13. FKA Suknev Residence <br/>
       16. Baiat's House <br/>
       17. T'Nyr Bridge <br/>
+      18. The Marble Rest <br/>
       21. The Fiend's Pit <br/>
       24. The Grand Market <br/>
+      25. The Laughing Faerie <br/>
+      26. The Reverant Atheneum <br/>
       30. The College of the Naga <br/>
       31. Stone Mason's Guild <br/>
       43. The Prince's Palace <br/>

@@ -21,10 +21,10 @@ categories:
         description: Barmaid at The Silver Hoof
       - name: Magda
         description: One-eyed bartender of the Fiend's Pit
-      - name: Adlev
+      - name: Idalev
         description: Librarian at the Reverant Atheneum
       - name: Kheiber
-        description: Adlev's assistant?
+        description: Idalev's assistant?
   - name: College of the Naga
     icon: fa-star-o
     npcs:
@@ -47,12 +47,14 @@ categories:
         description: A master stone mason
       - name: Virgil Petrescu
         description: Master jeweller
+      - name: Mother Zemi
+        description: A Priest of Amarhus at the Ventyrn Monastary
       - name: Elena Petrescu
         description: Wife of Virgil Petrescu
       - name: Amada the Wraith
         description: A leader of sorts in the Hand
       - name: Father Politon
-        description: A powerful (if expensive) cleric at Flowing Rock Cathedral
+        description: A powerful (if expensive) Cleric of Ea at Flowing Rock Cathedral
   - name: Misc.
     icon: fa-users
     npcs: 
