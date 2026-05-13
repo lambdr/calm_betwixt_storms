@@ -8,35 +8,49 @@ gp: 84
 sp: 46
 cp: 238
 
-Regill:
-  - name: A potion of cure light wounds
-  - name: An extremely valuable orange rock
-  - name: An amulet of Amarhus
-  - name: Amulet of Natural Armour, +1 AC
-  - name: A rod of silver metal with a symbol
+loot: 
+  players: 
+    - name: Regill
+      items: 
+        - name: A potion of cure light wounds
+          magic: yes
+        - name: An extremely valuable orange rock
+        - name: An amulet of Amarhus
+        - name: Amulet of Natural Armour, +1 AC
+          magic: yes
+        - name: A rod of silver metal with a symbol
+          magic: yes
 
-Ellywick:
-  - name: A wavey rock from Stillhaven
-  - name: A woven bracelet from Golden Hawk Inn
-  - name: An 8-pointed Inlaruit star ornament
+    - name: Ellywick
+      items:
+        - name: A wavey rock from Stillhaven
+        - name: A woven bracelet from Golden Hawk Inn
+        - name: An 8-pointed Inlaruit star ornament
 
-Jadwiga:
-  - name: A potion of cure light wounds
-  - name: A nice medium rapier (+1 to attack)
-  - name: A magic dagger (+1 to attack and damage)
+    - name: Jadwiga
+      items:
+        - name: A potion of cure light wounds
+          magic: yes
+        - name: A masterwork rapier (+1 to attack)
+        - name: A magic dagger (+1 to attack and damage)
+          magic: yes
 
-Contessa:
-  - name: A Necromancer's Spellbook
-  - name: A set of transmutation gloves, +5 to climb
-  - name: A pair of silver hoop earrings
-  - name: Surzhit, a +1 thundering cold iron longsword
+    - name: Contessa
+      items:
+        - name: A Necromancer's Spellbook
+        - name: A set of transmutation gloves, +5 to climb
+          magic: yes
+        - name: A pair of silver hoop earrings
+        - name: Surzhit, a +1 thundering cold iron longsword
+          magic: yes
 
-Saskarill:
-  - name: A glass bauble
-  - name: Some medicinal mushrooms
-  - name: 50 jars of baccaran (decrease strength, increase wisdom)
+    - name: Sasakrill
+      items: 
+        - name: A glass bauble
+        - name: Some medicinal mushrooms
+        - name: 50 jars of baccaran (decrease strength, increase wisdom)
 
-documents:
-  - name: Map of Arajin Value
-    held: Contessa
+    - name: Other
+      items: 
+        - name: Map of Arajin Value
 
