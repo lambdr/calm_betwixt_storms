@@ -19,9 +19,6 @@ markdown: kramdown
 
 # Campaign info
 next_session: Friday 06/12/26 6:00 PM ET :'(
-current_level: 4
-last_xp: 6000
-need_xp: 10000
 
 include:
   - _pages

@@ -1,15 +1,32 @@
 <div class="top_navbar">
   <!-- XP Calculations -->
+
+  <!-- Get Current Level -->
+  {% assign current_level = 1 %}
+  {% for recap in site.recaps %}
+    {% assign level_up = recap.advance | default: 0 %}
+    {% if level_up > current_level %}
+      {% assign current_level = level_up %}
+    {% endif %}
+  {% endfor %}
+
+  <!-- Current XP -->
   {% assign current_xp = 0 %}
   {% for recap in site.recaps %}
     {% assign recap_xp = recap.xp | default: 0 %}
     {% assign current_xp = current_xp | plus: recap_xp %}
   {% endfor %}
 
+  <!-- Needed XP -->
+  {% assign next_level = current_level | plus: 1 %}
+  {% assign next_xp = current_level | times: next_level | divided_by: 2 | times: 1000 %}
+  {% assign diff = current_level | times: 1000 %}
+  {% assign last_xp = next_xp | minus: diff %}
+  
 
-  {% assign gained = {{current_xp}} | minus: {{site.last_xp}} %}
-  {% assign total = {{site.need_xp}} | minus: {{site.last_xp}} %}
-  {% assign percentage = gained | times: 100 | divided_by: total %}
+  <!-- Gained XP -->
+  {% assign gained = {{current_xp}} | minus: {{last_xp}} %}
+  {% assign percentage = gained | times: 100 | divided_by: diff %}
 
   <!-- Buttons -->
   <p>
@@ -18,9 +35,9 @@
       {{ current_xp }}
     </button>
 
-    XP Level {{ site.current_level | plus: 1 }}
+    XP Level {{next_level}}
     <button>
-      {{ site.need_xp }}
+      {{next_xp}}
     </button>
 
     Level up?
@@ -31,7 +48,7 @@
         var(--color-bg) {{ percentage }}% 100%
       );
     ">
-      {{ percentage }}%
+      {{percentage | at_most: 100}}%
     </button>
   </p>
 </div>
