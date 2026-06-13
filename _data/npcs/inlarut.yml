@@ -8,6 +8,12 @@ categories:
         description: The ruler of Inlarut & all of Gilvry
       - name: Grand Marshall Gresham van Bahz
         description: The Grand Marshall of the forces of Gilvry
+      - name: Lady Duva van Bahz
+        description: Vizier and daugher of Grand Marshall van Bahz
+      - name: Lady Colette Stormfeather
+        description: A minor aristocrat and gamesmaster for the Grand Marshall's games
+      - name: Seraphim Groza
+        description: A former vizier, current resident of the Delzoun Prison
   - name: Shopkeeps
     icon: fa-money
     npcs: 
@@ -36,6 +42,8 @@ categories:
         description: Llewellyn's adorable rat familiar
       - name: Enell
         description: Guard of the College of the Naga
+      - name: Cepyrell
+        description: A half-elven mage??
   - name: Contacts
     icon: fa-question-circle
     npcs: 
@@ -71,6 +79,8 @@ categories:
         status: deceased
       - name: Katarina
         description: Killian Suknev's former housekeeper
+      - name: Nurlen
+        description: A caravan leader
   - name: Penrith
     icon: fa-home
     npcs: 

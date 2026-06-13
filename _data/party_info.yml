@@ -18,7 +18,7 @@ loot:
         - name: An amulet of Amarhus
         - name: Amulet of Natural Armour, +1 AC
           magic: yes
-        - name: A rod of silver metal with a symbol
+        - name: An immovable rod
           magic: yes
 
     - name: Ellywick

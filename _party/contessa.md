@@ -3,7 +3,7 @@ name: Contessa
 image: contessa.png
 race: Elf
 class: Wizard
-level: 3
+level: 4
 player: Sarah
 ---
 
