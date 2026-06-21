@@ -31,6 +31,8 @@ categories:
         description: Librarian at the Reverant Atheneum
       - name: Kheiber
         description: Idalev's assistant?
+      - name: Strilo
+        description: An eccentric halfling alchemist
   - name: College of the Naga
     icon: fa-star-o
     npcs:
