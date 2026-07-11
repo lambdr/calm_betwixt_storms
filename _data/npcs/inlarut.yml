@@ -10,7 +10,7 @@ categories:
         description: The Grand Marshall of the forces of Gilvry
       - name: Lady Duva van Bahz
         description: Vizier and daugher of Grand Marshall van Bahz
-      - name: Lady Colette Stormfeather
+      - name: Lady Clorette Stormfeather
         description: A minor aristocrat and gamesmaster for the Grand Marshall's games
       - name: Seraphim Groza
         description: A former vizier, current resident of the Delzoun Prison
@@ -82,7 +82,7 @@ categories:
       - name: Katarina
         description: Killian Suknev's former housekeeper
       - name: Nurlen
-        description: A caravan leader
+        description: A traumatized caravan leader
   - name: Penrith
     icon: fa-home
     npcs: 
