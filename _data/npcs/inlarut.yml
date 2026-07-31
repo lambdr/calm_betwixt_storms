@@ -83,6 +83,8 @@ categories:
         description: Killian Suknev's former housekeeper
       - name: Nurlen
         description: A traumatized caravan leader
+      - name: Odidove
+        description: Halfling warrior who is a member of the Jovial Djinn
   - name: Penrith
     icon: fa-home
     npcs: 
