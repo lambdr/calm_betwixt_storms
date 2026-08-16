@@ -1,7 +1,8 @@
 quests: 
-  - description: Find side gigs 
-  - description: Throw a party for Contessa's Birthday
-  - description: Have an existential crashout (Ellywick)
+  - description: Acquire gauntlets of ogre strength from Penaphrill Myr
+  - description: Deliver a package for Lord Wadim vanTean
+  - description: Get home from the Grand Marshall's party alive??
+  - description: Seek a Bow of Dust in Grantia
 
 pp: 2
 gp: 84

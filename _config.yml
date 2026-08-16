@@ -18,7 +18,7 @@ url: "https://lambdr.github.io" # the base hostname & protocol for your site, e.
 markdown: kramdown
 
 # Campaign info
-next_session: Friday 07/31/26 6:00 PM ET
+next_session: Friday 08/28/26 6:00 PM ET
 
 include:
   - _pages

@@ -14,6 +14,8 @@ categories:
         description: A minor aristocrat and gamesmaster for the Grand Marshall's games
       - name: Seraphim Groza
         description: A former vizier, current resident of the Delzoun Prison
+      - name: Lord Wadim vanTean
+        description: A vizier
   - name: Shopkeeps
     icon: fa-money
     npcs: 
@@ -85,6 +87,12 @@ categories:
         description: A traumatized caravan leader
       - name: Odidove
         description: Halfling warrior who is a member of the Jovial Djinn
+      - name: Lord Dezlan Trurie
+        description: A minor noble met at the Grand Marshall's manor
+      - name: Valestia
+        description: A procurer of rare beasts
+      - name: Baronet Sorin Calnescu
+        description: He who won the joust
   - name: Penrith
     icon: fa-home
     npcs: 
