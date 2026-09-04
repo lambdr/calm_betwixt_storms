@@ -1,7 +1,6 @@
 quests: 
   - description: Acquire gauntlets of ogre strength from Penaphrill Myr
   - description: Deliver a package for Lord Wadim vanTean
-  - description: Get home from the Grand Marshall's party alive??
   - description: Seek a Bow of Dust in Grantia
 
 pp: 2
@@ -13,8 +12,6 @@ loot:
   players: 
     - name: Regill
       items: 
-        - name: A potion of cure light wounds
-          magic: yes
         - name: An extremely valuable orange rock
         - name: An amulet of Amarhus
         - name: Amulet of Natural Armour, +1 AC

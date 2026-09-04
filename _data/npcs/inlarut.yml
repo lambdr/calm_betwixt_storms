@@ -93,6 +93,12 @@ categories:
         description: A procurer of rare beasts
       - name: Baronet Sorin Calnescu
         description: He who won the joust
+      - name: Maestryx
+        description: A warrior-priest 
+      - name: Lady Costine Nurhet
+        description: Half-elven noble. Sister to Alyreas.
+      - name: Lord Alyreas Nurhet
+        description: Half-elven noble. Brother to Costine.
   - name: Penrith
     icon: fa-home
     npcs: 
