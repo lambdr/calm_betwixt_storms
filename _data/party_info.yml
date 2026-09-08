@@ -54,5 +54,8 @@ loot:
         - name: A glass bauble
         - name: Some medicinal mushrooms
         - name: 50 jars of baccaran (decrease strength, increase wisdom)
-
+        
+    - name: Other
+      items:
+        - name: 300gp trophy for winning the gladiator fight
 
