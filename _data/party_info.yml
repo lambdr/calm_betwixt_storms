@@ -3,10 +3,10 @@ quests:
   - description: Deliver a package for Lord Wadim vanTean
   - description: Seek a Bow of Dust in Grantia
 
-pp: 2
-gp: 84
-sp: 46
-cp: 238
+pp: 3
+gp: 184
+sp: 191
+cp: 45
 
 loot: 
   players: 
@@ -32,15 +32,22 @@ loot:
         - name: A masterwork rapier (+1 to attack)
         - name: A magic dagger (+1 to attack and damage)
           magic: yes
+        - name: drugs (5 more uses)
+        - name: hallucinogenic mushroom
+        - name: messenger bird
 
     - name: Contessa
       items:
         - name: A Necromancer's Spellbook
+        - name: Ogre's mage's spellbook
         - name: A set of transmutation gloves, +5 to climb
           magic: yes
         - name: A pair of silver hoop earrings
+        - name: A silver bracelet with pale white stones
         - name: Surzhit, a +1 thundering cold iron longsword
           magic: yes
+        - name: A nice seafoam green dress
+        - name: A tarot card
 
     - name: Sasakrill
       items: 
@@ -48,7 +55,4 @@ loot:
         - name: Some medicinal mushrooms
         - name: 50 jars of baccaran (decrease strength, increase wisdom)
 
-    - name: Other
-      items: 
-        - name: Map of Arajin Value
 
