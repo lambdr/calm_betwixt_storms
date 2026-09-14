@@ -80,6 +80,8 @@ permalink: /characters/
           {{ npc.name }}
           {% if npc.status == "deceased" %}
             <span style="color:red;">&nbsp;&nbsp;(deceased)</span>
+          {% elsif npc.status == "unknown" %}
+            <span style="color:#de9259;">&nbsp;&nbsp;(deceased)</span>
           {% endif %}
         </td>
         <td>{{ npc.description }}</td>

@@ -13,9 +13,19 @@ categories:
       - name: Lady Clorette Stormfeather
         description: A minor aristocrat and gamesmaster for the Grand Marshall's games
       - name: Seraphim Groza
-        description: A former vizier, current resident of the Delzoun Prison
+        description: A former vizier, former resident of the Delzoun Prison
+        status: unknown
       - name: Lord Wadim vanTean
         description: A vizier
+  - name: Home
+    icon: fa-home
+    npcs:
+      - name: Perin Neete
+        description: A young halfling, butler for the Embers of the Vale
+      - name: Celza Jonove Remyra Zinnove 
+        description: The Embers' housekeeper, a retired riverboatwoman
+      - name: Tanpip Zinnove
+        descriptions: Celza's crotchety husband
   - name: Shopkeeps
     icon: fa-money
     npcs: 
@@ -76,6 +86,7 @@ categories:
         description: A bookeeper for the Mason's Guild
       - name: Beirun
         description: A miscreant who scammed the party
+        status: unknown
       - name: Ulblyn Moth
         description: A gambler, and a Luckblade
       - name: Killian Suknev
@@ -99,8 +110,10 @@ categories:
         description: Half-elven noble. Sister to Alyreas.
       - name: Lord Alyreas Nurhet
         description: Half-elven noble. Brother to Costine.
+      - name: Kort 
+        description: A man-at-arms for Vizier Wadim
   - name: Penrith
-    icon: fa-home
+    icon: fa-signs-post
     npcs: 
       - name: Egon Creel
         description: The mayor of Penrith
