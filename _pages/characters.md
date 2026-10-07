@@ -11,6 +11,7 @@ permalink: /characters/
   <button class="tablinks" onclick="openCity(event, 'arajin')">Arajin Vale</button>
   <button class="tablinks" onclick="openCity(event, 'stillhaven')">Stillhaven</button>
   <button class="tablinks" onclick="openCity(event, 'inlarut')">Inlarut</button>
+  <button class="tablinks" onclick="openCity(event, 'gural')">Gural Road</button>
 </div>
 
 
@@ -35,6 +36,9 @@ permalink: /characters/
 <table class="char">
   <tbody>
     {% for pc in party %}
+    {% if pc.former %}
+      {% continue %}
+    {% endif %}
     <tr>
       <td style="width: 15vw;">
         <img
@@ -48,7 +52,9 @@ permalink: /characters/
       <td style="width: 15vw;">
         <center>
           <h2>{{ pc.name }}</h2>
-          Level {{ pc.level }} {{ pc.class }}
+          {% for class in pc.classes %}
+            Level {{ class.level }} {{ class.class }}
+          {% endfor %}
         </center>
       </td>
 
@@ -59,6 +65,48 @@ permalink: /characters/
     {% endfor %}
   </tbody>
 </table>
+<br/>
+<h3>Former Members</h3>
+<br/>
+<table class="char">
+  <tbody>
+    {% for pc in party %}
+      {% if pc.former %}
+        <tr>
+        <td style="width: 15vw;">
+          <img
+            src="{{ site.baseurl }}/assets/images/characters/{{ pc.image }}"
+            alt="{{ pc.name }}"
+            class="avatar"
+            id="{{ pc.name | replace: ' ', '' }}"
+          >
+        </td>
+
+        <td style="width: 15vw;">
+          <center>
+            <h2>{{ pc.name }}</h2>
+            {% for class in pc.classes %}
+              Level {{ class.level }} {{ class.class }}
+            {% endfor %} 
+            {% if pc.former.status == "deceased" %}
+              <span style="color:red;">&nbsp;&nbsp;(deceased)</span>
+            {% elsif pc.former.status == "unknown" %}
+              <span style="color:#de9259;">&nbsp;&nbsp;(unknown)</span>
+            {% endif %}
+          </center>
+        </td>
+
+        <td>
+          {{ pc.content | markdownify }}
+          <p><strong>{{ pc.former.outcome }}:</strong> {{ pc.former.reason }}</p>
+        </td>
+      </tr>
+    {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+
 </div> 
 
 {% for place in site.data.npcs %}

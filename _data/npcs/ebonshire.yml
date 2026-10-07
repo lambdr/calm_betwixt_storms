@@ -1,0 +1,20 @@
+location: Gural Road
+slug: gural
+categories:
+  - name: Xoenar's Patience
+    icon: fa-church
+    npcs:
+      - name: Sister Analyn
+        description: A more senior monk
+      - name: Brother Jainry
+        description: A middle-aged monk
+      - name: Shelara
+        description: An <del>imprisoned elf</del> released succubus
+
+  - name: Calau
+    icon: fa-home
+    npcs:
+      - name: Berin
+        description: Emele's father
+      - name: Emele
+        description: A child taken by the monastary 

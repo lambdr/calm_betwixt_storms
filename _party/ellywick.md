@@ -2,8 +2,9 @@
 name: Ellywick Lizigella Waywocket Ningel
 image: ellywick.jpg
 race: Gnome
-class: Cleric
-level: 4
+classes:
+    - class: Cleric
+      level: 5
 player: Kayla
 ---
 

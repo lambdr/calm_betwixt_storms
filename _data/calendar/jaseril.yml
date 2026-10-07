@@ -8,6 +8,12 @@ events:
     - name: Harvest Festival
       type: holiday
       length: 2
+  18: 
+    - name: Regill died
+      type: misc
+  23: 
+    - name: Alonso joined the party
+      type: misc 
   28: 
     - name: Day of the Parting
       type: holiday

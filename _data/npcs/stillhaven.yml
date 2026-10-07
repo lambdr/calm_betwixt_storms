@@ -16,7 +16,7 @@ categories:
         description: The Lord Arcanist
 
   - name: Shopkeeps
-    icon: fa-money
+    icon: fa-coins
     npcs:
       - name: Amos
         description: Owner of The Dour Rat

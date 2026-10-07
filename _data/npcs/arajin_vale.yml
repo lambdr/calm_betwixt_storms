@@ -10,7 +10,7 @@ categories:
         description: The Parish priest
 
   - name: Shopkeeps
-    icon: fa-money
+    icon: fa-coins
     npcs:
       - name: Rowyn Pine
         description: Owner of the Hearth of the Vale Inn

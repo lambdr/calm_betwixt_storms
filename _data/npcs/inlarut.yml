@@ -25,9 +25,9 @@ categories:
       - name: Celza Jonove Remyra Zinnove 
         description: The Embers' housekeeper, a retired riverboatwoman
       - name: Tanpip Zinnove
-        descriptions: Celza's crotchety husband
+        description: Celza's crotchety husband
   - name: Shopkeeps
-    icon: fa-money
+    icon: fa-coins
     npcs: 
       - name: Thurgrim
         description: A blacksmith, owns Thurgrim's Forge
@@ -46,7 +46,7 @@ categories:
       - name: Strilo
         description: An eccentric halfling alchemist
   - name: College of the Naga
-    icon: fa-star-o
+    icon: fa-wand-magic-sparkles
     npcs:
       - name: Nuavan Karsk
         description: A sorcerer of the second ring and ally of Lord Haylich Ryazan
@@ -112,6 +112,10 @@ categories:
         description: Half-elven noble. Brother to Costine.
       - name: Kort 
         description: A man-at-arms for Vizier Wadim
+      - name: Bloodworth
+        description: A leader of sorts in the Hand
+      - name: Eloy
+        description: An acolyte at the Ventyrn Monastary 
   - name: Penrith
     icon: fa-signs-post
     npcs: 

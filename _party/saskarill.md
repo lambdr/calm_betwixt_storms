@@ -2,9 +2,10 @@
 name: Saskarill
 image: saskarill.jpg
 race: Gnome
-class: Bard
-level: 4
+classes: 
+    - class: Bard
+      level: 5
 player: Haley
 ---
 
-A bundle o' fun.
+A bundle o' fun. Sometimes known as Sancho II.
