@@ -10,6 +10,12 @@ categories:
         description: A middle-aged monk
       - name: Shelara
         description: An <del>imprisoned elf</del> released succubus
+      - name: Mozhet
+        description: Xoenar's Steward, the high priestess of Belet-Seri.
+      - name: Besar Ceste
+        description: A one-eyed priest of Lord Rakas who lives in the mountains above the monastery.
+      - name: Ippoc
+        description: Besar's familiar?
 
   - name: Calau
     icon: fa-home
@@ -18,3 +24,5 @@ categories:
         description: Emele's father
       - name: Emele
         description: A child taken by the monastary 
+      - name: Dinta
+        description: Headwoman of the hamlet, a gnome weaver.
