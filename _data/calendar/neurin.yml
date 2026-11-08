@@ -1,7 +1,9 @@
 month: Neurin
-slug: m4
+slug: m5
 month_number: 5
 year: 655
 days_in_month: 30
 events:
-  13: Midwinter's Day 
+  13:
+    - name: Midwinter's Day 
+    - type: holiday
